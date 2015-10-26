@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "cssnext src/base.css css/base.css",
+    "minify:css": "cssnext -c src/base.css css/base.min.css",
+    "serve": "http-server",
+    "start": "npm run watch:css & npm run serve",
+    "watch:css": "watch 'npm run css && npm run minify:css' ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickbytes/resume.git"
+  },
+  "author": "Nick Beattie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickbytes/resume/issues"
+  },
+  "homepage": "https://github.com/nickbytes/resume#readme",
+  "devDependencies": {
+    "cssnext": "^1.8.4",
+    "http-server": "^0.8.5",
+    "watch": "^0.16.0"
+  }
+}
