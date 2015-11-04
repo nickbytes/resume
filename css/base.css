@@ -107,13 +107,13 @@ td { vertical-align: top }
 /* Basscss Base Typography */
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "museo-sans",sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "museo-sans",sans-serif;
   font-weight: bold;
   line-height: 1.25;
   margin-top: 1em;

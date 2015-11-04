@@ -1,5 +1,9 @@
 @import 'basscss';
 
+:root{
+  --font-family: "museo-sans",sans-serif;
+}
+
 .container38{
   max-width: 42em;
 }
